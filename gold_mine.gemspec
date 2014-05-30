@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "goldmine/version"
+require "gold_mine/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "goldmine"
-  spec.version       = Goldmine::VERSION
+  spec.name          = "gold_mine"
+  spec.version       = GoldMine::VERSION
   spec.authors       = ['Marcin "Archetylator" Syngajewski']
   spec.email         = ["archetelecynacja@gmail.com"]
   spec.summary       = %q{A simple, fortune cookie library for Ruby}

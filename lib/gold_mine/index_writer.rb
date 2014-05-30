@@ -1,4 +1,4 @@
-module Goldmine
+module GoldMine
 
   # Creates a file which consists of a table describing
   # the file, a table of pointers and an end of file position

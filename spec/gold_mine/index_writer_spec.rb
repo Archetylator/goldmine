@@ -1,7 +1,7 @@
 require "spec_helper"
 require "tmpdir"
 
-describe Goldmine::IndexWriter do
+describe GoldMine::IndexWriter do
   add_temp_file
   subject { described_class.new(temp_file.path) }
 

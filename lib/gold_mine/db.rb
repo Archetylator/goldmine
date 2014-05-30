@@ -1,4 +1,4 @@
-module Goldmine
+module GoldMine
 
   # Database of fortunes.
   #
@@ -26,7 +26,7 @@ module Goldmine
     attr_reader :path, :options
 
     def initialize(options = {})
-      @path = options.fetch(:path, Goldmine.default_db_path)
+      @path = options.fetch(:path, GoldMine.default_db_path)
       @options = self.class.default_options.merge(options)
     end
 

@@ -1,4 +1,4 @@
-module Goldmine
+module GoldMine
 
   # Reads an index for fortunes database. The index is a binary
   # file which contains a header and pointers.

@@ -7,7 +7,7 @@ module TempFile
 
   def add_temp_file
     let(:temp_file) do
-      Tempfile.new("goldmine")
+      Tempfile.new("gold_mine")
     end
   end
 

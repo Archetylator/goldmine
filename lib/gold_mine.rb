@@ -3,10 +3,10 @@
 
 # Loads library files
 %w{db idb fortune index_reader index_writer version}.each do |x|
-  require_relative "goldmine/#{x}"
+  require_relative "gold_mine/#{x}"
 end
 
-module Goldmine
+module GoldMine
   def self.base_dir
     Pathname.new(File.expand_path("../../", __FILE__))
   end

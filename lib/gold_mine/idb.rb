@@ -1,4 +1,4 @@
-module Goldmine
+module GoldMine
 
   # Database with a related index file.
   #

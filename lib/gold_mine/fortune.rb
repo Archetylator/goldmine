@@ -1,4 +1,4 @@
-module Goldmine
+module GoldMine
 
   # Represents a single fortune.
   #

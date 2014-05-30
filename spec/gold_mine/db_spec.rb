@@ -1,11 +1,11 @@
 require "spec_helper"
 
-describe Goldmine::DB do
+describe GoldMine::DB do
   add_temp_file
-  subject { Goldmine::DB.new(path: temp_file.path) }
+  subject { GoldMine::DB.new(path: temp_file.path) }
 
   describe "#initialize" do
-    subject {  Goldmine::DB.new }
+    subject {  GoldMine::DB.new }
     let(:path) { subject.instance_variable_get("@path") }
     let(:options) { subject.instance_variable_get("@options") }
 
@@ -33,7 +33,7 @@ describe Goldmine::DB do
     EOF
 
     it "returns the instance of fortune class" do
-      expect(subject.random).to be_a(Goldmine::Fortune)
+      expect(subject.random).to be_a(GoldMine::Fortune)
     end
 
     it "returns the random fortune" do
@@ -57,7 +57,7 @@ describe Goldmine::DB do
     EOF
 
     it "returns the array with fortune instances" do
-      array = subject.fortunes.map { |f| f.is_a?(Goldmine::Fortune) }
+      array = subject.fortunes.map { |f| f.is_a?(GoldMine::Fortune) }
       expect(array).to_not include(false)
     end
 

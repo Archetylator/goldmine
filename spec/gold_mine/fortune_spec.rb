@@ -1,10 +1,10 @@
 require "spec_helper"
 
-describe Goldmine::Fortune do
+describe GoldMine::Fortune do
   describe "#initialize" do
     context "with content" do
       subject do
-        Goldmine::Fortune.new <<-EOF.gsub(/^ {10}/, "")
+        GoldMine::Fortune.new <<-EOF.gsub(/^ {10}/, "")
           I hate quotations.
                   ― Ralph Waldo Emerson
         EOF

@@ -1,6 +1,6 @@
 require "spec_helper"
 
-describe Goldmine::IndexReader do
+describe GoldMine::IndexReader do
   add_temp_file
   subject { described_class.new(temp_file.path) }
 
