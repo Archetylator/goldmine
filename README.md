@@ -2,7 +2,7 @@
 
 A simple, [fortune](http://en.wikipedia.org/wiki/Fortune_(Unix)) cookie library for Ruby.
 Goldmine provides access to the contents of a fortune file. The fortune file is a database
-which contains fortunes ― funny, offensive, serious and reflective (very rarely) quotes, jokes, or poems. [Example](github.com/archetylator/goldmine).
+which contains fortunes ― funny, offensive, serious and reflective (very rarely) quotes, jokes, or poems. [Example](http://github.com/Archetylator/goldmine/blob/master/fortunes/fortunes).
 
 Goldmine allows to create and read a data file which describes the database.
 Such a file is called an index. The index always has the same name as the database, but ends with a ".dat" extension. The index created by Goldmine is
@@ -76,12 +76,12 @@ writer.write
 Ideas & bugs
 -------
 
-Please submit to github.com/archetylator/goldmine/issues
+Please submit to [issues](http://github.com/Archetylator/goldmine/issues)
 
 License
 -------
 
 "THE BEER-WARE LICENSE" (Revision 42):
-<Marcin "Archetylator" Syngajewski> wrote this file. As long as you retain this notice you
+Marcin "Archetylator" Syngajewski wrote this file. As long as you retain this notice you
 can do whatever you want with this stuff. If we meet some day, and you think
 this stuff is worth it, you can buy me a beer in return.
