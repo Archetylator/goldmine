@@ -1,4 +1,5 @@
-# GoldMine
+# GoldMine 
+[![Gem Version](https://badge.fury.io/rb/gold_mine.svg)](http://badge.fury.io/rb/gold_mine)
 
 A simple, [fortune](http://en.wikipedia.org/wiki/Fortune_(Unix)) cookie library for Ruby.
 GoldMine provides access to the contents of a fortune file. The fortune file is a database
